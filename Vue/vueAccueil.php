@@ -1,6 +1,5 @@
 <?php $this->titre = "Incidents"; ?>
 
-
 <div class="container-fluid">
    <h6 class="blog-post-title" style="text-align:center;">Gestion des incidents</h6>
    </br>
