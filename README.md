@@ -1,21 +1,12 @@
-# TP2ticketingMVCO
+Propriété exclusif de Samba Coulibaly.
 
-Avant d'utiliser ce produit,créer puis importer la base de données se situant dans le repertoire BD avec les commandes : 
+# Ticket
+Ce repository contient un fichier ticket.sql
 
-mysql 
+Pour utiliser le code source de ce tutoriel:
+1. Déplacez le dossier TP2P sur votre serveur local.
+2. Créez une base de données MySQL que vous appellerez ticket 
+3. Importez le fichier ticket.sql pour générer les différentes tables
+4. Accéder à l'application de ticketing.
 
-create database ticket;
-
-sortez de Mysql et faites(e étant dans le répertoire de base :
-
-mysql ticket < ./BD/ticket.sql
-
-Suite à cela faites : mysql
-
-Ensuite : use ticket;
-
-Puis créez un utilisateur avec la commande suivante : CREATE USER 'user'@'localhost' IDENTIFIED BY 'hehetest';
-
-Après vous devez accorder les droits à l'utilisateur sur la base de données, avec la commande : GRANT ALL PRIVILEGES ON ticket.* TO 'user'@'localhost';
-
-Pour finir, vous devez actualiser les droits avec : FLUSH PRIVILEGES ;
+Si vous avez une erreur de connexion à la base de données, allez dans les dossier "BD" puis éditez le fichier "ticket.sql" en fonction de vos paramètres MySQL

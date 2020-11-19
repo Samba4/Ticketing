@@ -8,7 +8,7 @@ class ControleurEtat
     {
         $this->etat = new Etat();
     }
-    // Affiche les détails sur un billet
+    
     public function etats()
     {
         $etats = $this->etat->getEtats();

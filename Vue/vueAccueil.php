@@ -27,7 +27,7 @@
 
                   <div class="d-flex justify-content-between align-items-center">
                      <div class="btn-group">
-                        <a href="<?= "index.php?action=ticket&id=" . $ticket['id'] ?>" button type="button" class="btn btn-sm btn-outline-secondary">Commenter</a>
+                        <a href="<?= "index.php?action=ticket&id=" . $ticket['id'] ?>" button type="button" class="btn btn-sm btn-outline-secondary">Afficher</a>
                         <a href="<?= "index.php?action=editerticket&id=" . $ticket['id'] ?>" button type=" button" class="btn btn-sm btn-outline-secondary">Modifier</a>
                         <a onclick="return confirm('&Ecirc;êtes vous sur de supprimer ce ticket?')" href="<?= "index.php?action=supprimerticket&id=" . $ticket['id'] ?>" button type="button" class="btn btn-sm btn-outline-secondary">Supprimer</a>
                      </div>
